@@ -2,6 +2,18 @@
 
 import UIKit
 
+//No more ; 
+//But you can still use them if you want. 
+
+//var foo = "M3";
+//var foo2 = "M3"
+//
+////var foo3 = "M3" var foo4 = "M3" //Error
+//var foo3 = "M3"; var foo4 = "M3" //OK
+//
+//foo4
+
+
 //Objective C
 //NSString *myString = @"This is my string.";
 
@@ -23,7 +35,7 @@ import UIKit
 //var visible = true
 
 //name = "TJ Van Toll" // OK
-//temperature = 36.8 // OK 
+//temperature = 36.8 // OK
 //somenumber1 = 54321 // OK
 //visible = false // OK
 
@@ -113,5 +125,24 @@ import UIKit
 //for num in 1...5 { println(num)
 //}
 
+// Functions
+//func greet(name: String, day: String) -> String {
+//    return "Hello \(name), today is \(day)."
+//}
+//
+////What if this was a return "Hello \(name}, today is \(day)."
+//
+//greet("Michael", "Thursday")
 
+// Classes
 
+//class Shape {
+//    var numberOfSides = 0
+//    func simpleDescription() -> String {
+//        return "A shape with \(numberOfSides) sides."
+//    }
+//}
+//
+//var shape = Shape()
+//shape.numberOfSides = 7
+//var shapeeDescription = shape.simpleDescription()
